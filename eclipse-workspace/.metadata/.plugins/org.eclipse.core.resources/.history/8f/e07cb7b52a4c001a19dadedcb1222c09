@@ -1,0 +1,12 @@
+package com.epam.design_principle;
+import java.util.*;
+public class Calc_App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in=new Scanner (System.in);
+		String[] inp=System.console().readLine().split(" ");
+		
+	}
+
+}

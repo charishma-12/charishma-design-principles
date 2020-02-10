@@ -1,0 +1,15 @@
+package com.epam.design_principle;
+import java.util.*;
+public class Calc_App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in=new Scanner (System.in);
+		String[] inp=System.console().readLine().split(" ");
+		Math_class.Operand1=Double.parseDouble(inp[0]);
+		Math_class.Operator=inp[1].charAt(0);
+		Math_class.Operand2=Double.parseDouble(inp[2]);
+		Math_class.Calculate();
+	}
+
+}
